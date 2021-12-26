@@ -1,0 +1,192 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.nav-link{
+  color: black;
+  font-weight: 600;
+  font-size: 20px;
+}
+.navbar-brand{
+  color: black;
+  font-size: 40px;
+  font-weight: 800;
+}
+.carousel-caption{
+  position: absolute;
+  top: 55%;
+  transform: translateY(-90%);
+  left: -28%;
+}
+.carousel-caption h1{
+  font-size: 70px;
+  font-weight: 600;
+  color: black;
+}
+.carousel-caption p{
+  color: black;
+  font-size: 20px;
+  font-weight: 700;
+}
+.btn0{
+  background-color: red;
+  height: 45px;
+  width: 150px;
+  color: white;
+  border: none;
+  position: absolute;
+  left: 100px;
+}
+.btn0:hover{
+  color: red;
+  background-color: white;
+  transition: 0.4s;
+}
+.sub{
+  background-color: rgb(70,63,63);
+}
+.sub input{
+  height: 35px;
+  width: 50%;
+  color: black;
+  outline: none;
+  padding: 15px;
+}
+.btn1{
+  height: 35px;
+  width: 30%;
+  color: white;
+  background-color: yellowgreen;
+  border: none;
+  outline: none;
+  margin-left: -2px;
+}
+.btn1:hover{
+  color: white;
+  background-color: rgb(44,40,40);
+  transition: 0.5s;
+}
+.fas{
+  font-size-adjust: 32px;
+}
+.collection span{
+  color: yellowgreen;
+  font-size: 19px;
+  font-weight: 800;
+  padding-left: 5px;
+}
+.card{
+  border: none;
+}
+.collection input{
+  position: absolute;
+  height: 45px;
+  width: 110px;
+  background-color: yellowgreen;
+  color: white;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  text-align: center;
+  top: 40%;
+  left: 30%;
+  opacity: 0;
+}
+.collection .card:hover input{
+  opacity: 1;
+  transition: 1s;
+}
+.collection input:hover{
+  background-color: grey;
+  transition: 0.5s;
+}
+.parallex{
+  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(family.jpg)no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  width: 100%;
+}
+.parallex h1{
+  font-size: 55px;
+  font-weight: 700;
+}
+.parallex p{
+  font-size: 24px;
+}
+.btn2{
+  height: 40px;
+  width: 110px;
+  background: transparent;
+  border: 2px solid white;
+  color: white;
+  outline: none;
+  border-radius: 4px;
+}
+.btn2:hover{
+  background-color: white;
+  color: yellowgreen;
+  transition: 0.3s;
+  border: none;
+}
+.btn3{
+  height: 40px;
+  width: 110px;
+  background-color: white;
+  outline: none;
+  border: none;
+  color: yellowgreen;
+  border-radius: 4px;
+}
+.btn3:hover{
+  background-color: grey;
+  color: white;
+  border: none;
+  outline: none;
+  transition: 0.3s;
+}
+.article a{
+  list-style: none;
+  color: black;
+  outline: none;
+}
+.article a:hover{
+  color: yellowgreen;
+  transition: 0.3s;
+}
+.article p{
+  font-size: 21px;
+}
+.article span{
+  color: yellowgreen;
+}
+.article small{
+  font-size: 15px;
+}
+.contact input{
+  height: 50px;
+  width: 100%;
+  outline: none;
+  border: none;
+  color: grey;
+  background-color: white;
+  padding: 10px;
+  box-shadow: -1px -3px 16px 3px rgba(0,0,0,0.7);
+-webkit-box-shadow: -1px -3px 16px 3px rgba(0,0,0,0.7);
+-moz-box-shadow: -1px -3px 16px 3px rgba(0,0,0,0.7);
+}
+.btn4{
+  color: white;
+  background-color: yellowgreen;
+  height: 50px;
+  width: 170px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+}
+.btn4:hover{
+  color: white;
+  background-color: gray;
+  transition: 0.5s;
+}
